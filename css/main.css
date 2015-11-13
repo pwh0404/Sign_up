@@ -1,0 +1,134 @@
+*{
+  box-sizing: border-box;
+}
+*:focus {
+  outline: none;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans|Comfortaa:400,300,700);
+
+
+body{
+  background: #DDD;
+  color: #222;
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 300;
+}
+
+#login-box{
+  position: relative;
+  margin-top: 5% auto;
+  background-color: #FFF;
+  width: 600px;
+  height: 400px;
+  border-radius: 2px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}
+.left{
+  padding: 40px;
+  width: 300px;
+  height: 400px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.right{
+  padding: 40px;
+  width: 300px;
+  height: 400px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: url('https://goo.gl/YbktSj');
+  background-size: cover;
+  background-position: center;
+  border-radius: 0 2px 2px 0;
+}
+h1{
+  margin: 0 0 20px 0;
+  font-weight: 300;
+  font-size: 2em;
+}
+
+.sign-up input{
+  border: none;
+  border-bottom: 1px solid #AAA;
+  display: block;
+  margin-bottom: 20px;
+  padding: 4px;
+  width: 220px;
+  height: 32px;
+  font-weight: 400;
+}
+
+.sign-up-button{
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 220px;
+  height: 32px;
+  border-radius: 2px;
+  background-color: #16A085;
+  color: #fff;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.sign-up-button:hover{
+  opacity: 0.8;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  transition: 0.1s ease;
+}
+
+.sign-up-button:active{
+  opacity: 1;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.sign-up-button input:focus{
+  border-bottom: 2px solid #16a085;
+  color: #16a085;
+  transition: 0.2s ease;
+}
+
+.longwidth{
+  display: block;
+  margin-bottom: 40px;
+  font-size: 2em;
+  color: #FFF;
+  text-align: center;
+}
+
+button.socail-signin{
+  margin-bottom: 20px;
+  width: 220px;
+  height: 36px;
+  border: none;
+  border-radius: 2px;
+  color: #FFF;
+}
+
+.facebook{
+  background: #32508E
+}
+
+.twitter{
+  background: #55ACEE;
+}
+
+.google{
+background: #DD4B39;
+}
+
+.or{
+  position: absolute;
+  top: 180px;
+  left: 280px;
+  width: 40px;
+  height: 40px;
+  background: #DDD;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4)
+}
